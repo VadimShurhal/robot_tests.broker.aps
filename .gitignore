@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+<<<<<<< HEAD
 *$py.class
 
 # C extensions
@@ -60,3 +61,23 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+=======
+
+# Distribution / packaging / buildout
+/*.egg-info/
+/.installed.cfg
+/.mr.developer.cfg
+/bin/
+/build/
+/develop-eggs/
+/[bs]dist/
+/dist/
+/eggs/
+/src/
+
+# Output of robot_tests
+/test_output/
+
+# Robot framework artifact
+op_robot_tests/tests_files/data/artifact.yaml
+>>>>>>> 7a6623fdde3f5f55e6444afe0f9c771644d4cdf5
