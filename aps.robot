@@ -59,7 +59,7 @@ Resource          Locators.robot
     WaitClickID    ButtonTenderEdit
     Execute Javascript    window.scroll(1500,1500)
     WaitClickID    addFile
-    Select From List By Label    category_of    Документи закупівлі
+    Select From List By Label    id=category_of    Тендерна документація
     Select From List By Label    file_of    закупівлі
     WaitInputID    TenderFileUpload    ${filepath}
     WaitClickID    lnkDownload
